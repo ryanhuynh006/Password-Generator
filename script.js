@@ -29,10 +29,11 @@ function generatePassword() {
         alert("Please select at least one character type.");
         return "";
     }
-
+    //Declaring available characters for the password generator
     var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
     var uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     var numberChars = "1234567890";
+    //Special characters that are available
     var specialChars = "!@#$%^&*()_+<>{}[]?|\/";
 
     var selectCharacters = '';
@@ -41,6 +42,7 @@ function generatePassword() {
     if (numbers) selectCharacters += numberChars;
     if (specialCharacters) selectCharacters += specialChars;
 
+    //for function to loop through declared password length and generate using random
     var password ='';
     for (var i=0; i<length; i++) {
         var random = Math.floor(Math.random() * selectCharacters.length);

@@ -30,8 +30,9 @@ THEN the password is either displayed in an alert or written to the page
 
 ## Mock Up
 
+When completed, the working code should ask you questions to generate a password. The user will be prompted with questions regarding what to add to the password.
 
-![When completed, the working code should ask you questions to generate a password.](./assets/images/pass_generator.JPG)
+![Password Generator](./assets/images/pass_generator.JPG)
 [Take a look!](https://ryanhuynh006.github.io/Portfolio-of-Ryan-Huynh/)
 
 ## Conclusion
